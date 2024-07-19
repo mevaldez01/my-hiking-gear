@@ -1,52 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiking Gear Guide</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Hiking Gear Guide</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#backpacks">Backpacks</a></li>
-            <li><a href="#boots">Boots</a></li>
-            <li><a href="#tents">Tents</a></li>
-        </ul>
-    </nav>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-    <main>
-        <section id="backpacks">
-            <h2>Backpacks</h2>
-            <img src="images/backpack.jpg" alt="A sturdy hiking backpack" title="Hiking Backpack">
-            <p>
-                A good backpack is essential for carrying your <strong>gear</strong> and supplies. Look for a pack with <em>padded straps</em> and a <em>waist belt</em> for extra comfort.
-            </p>
-        </section>
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-        <section id="boots">
-            <h2>Boots</h2>
-            <img src="images/boots.jpg" alt="Durable hiking boots" title="Hiking Boots">
-            <p>
-                Durable boots are crucial for protecting your feet on rugged trails. Choose boots that are <strong>waterproof</strong> and have <em>good ankle support</em>.
-            </p>
-        </section>
+nav {
+    background: #333;
+    color: white;
+    padding: 0.5rem;
+}
 
-        <section id="tents">
-            <h2>Tents</h2>
-            <img src="images/tent.jpg" alt="A lightweight hiking tent" title="Hiking Tent">
-            <p>
-                A lightweight tent provides shelter in the wilderness. Look for a tent that is <strong>easy to set up</strong> and can withstand <em>various weather conditions</em>.
-            </p>
-        </section>
-    </main>
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    <footer>
-        <p>&copy; 2024 Hiking Gear Guide</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
